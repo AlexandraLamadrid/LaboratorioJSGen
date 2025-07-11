@@ -1,19 +1,16 @@
-//Numero
-let edad = 33;
-console.log("Edad: " + edad);
+// Ejercicio 1
+let nombre = "Alexa";           
+let edad = 33;                  
+let esEstudiante = true;        
 
-//Texto
-let nombre = "Alexandra";
-console.log("Nombre: " + nombre);
-
-//Booleano
-let esEstudiante = true;
+console.log("Nombre:", nombre);
+console.log("Edad:", edad);
 console.log("¿Es estudiante?:", esEstudiante);
 
-//Nulo
-let mascota = null;
-console.log("Mascota:", mascota);
+//Ejercicio 2
 
-//Indefinido
-let direccion;
-console.log("Dirección:", direccion); 
+let sinValor;                  
+let valorNulo = null;          
+
+console.log("Variable sin valor:", sinValor); 
+console.log("Variable con valor nulo:", valorNulo);
